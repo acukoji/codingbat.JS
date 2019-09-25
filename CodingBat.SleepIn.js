@@ -32,9 +32,13 @@ function sleepIn(weekday, vacation): number {
 }
 */
 
-function sleepIn(weekday, vacation): number {
-    if(vacation || !weekday){
+function sleepIn(weekday, vacation) {
+    if (vacation || !weekday) {
         return true;
     }
     return false;
 }
+
+console.log(sleepIn(true, true) === true);
+console.log(sleepIn(true, false) === false);
+console.log(sleepIn(false, true) === true);

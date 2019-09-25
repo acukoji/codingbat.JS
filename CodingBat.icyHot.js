@@ -55,3 +55,7 @@ function icyHot(temp1, temp2){
       return false;
     }
   }
+
+console.log(icyHot(120, -1) == true);
+console.log(icyHot(-1, 120) ==  true);
+console.log(icyHot(2, 120)  == false);
