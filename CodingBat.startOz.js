@@ -1,4 +1,13 @@
+/*Warmup-1 -- startOz
+Given a string, return a string made of the first 2 chars (if present), however include first char only if it is 'o' and include the second only if it is 'z', so 'ozymandias' yields 'oz'.
 
+Examples
+
+startOz('ozymandias') → oz
+startOz('bzoo') → z
+startOz('oxx') → o
+
+*/
 //first attempt:  
 function startOz(str) {
     if (str.length >= 2) {                  //this line turned out to be unnecessary.  
