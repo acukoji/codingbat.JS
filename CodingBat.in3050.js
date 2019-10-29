@@ -45,14 +45,10 @@ function in3050(a, b){
   function in3050(a, b){
     var absDiff = false;
    if(((a>=30) && (a<=40)) && ((b>=30) && (b<=40))){
-      if(Math.abs(a-b)<=10){
-        absDiff = true;
-      }
+ 
    }
    if(((a>=40) && (a<=50)) && ((b>=40) && (b<=50)) ){
-      if(Math.abs(a-b)<=10){
-        absDiff = true;
-      }
+  
    }
     return absDiff;
   }
